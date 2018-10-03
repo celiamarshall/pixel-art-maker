@@ -29,8 +29,6 @@ for (col of colorsArr) {
 
 currentText = document.createElement('div')
 currentText.innerHTML = "Current Color:"
-currentText.style = "font-size: 30px;" 
-currentText.style = "font-family: 'comic sans MS'"
 currentText.style = "margin-right: 10px; font-size: 30px; font-family: 'comic sans MS'"
 document.querySelector('.palette').appendChild(currentText)
 
