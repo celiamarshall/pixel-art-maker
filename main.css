@@ -1,0 +1,97 @@
+body {
+    background: lightgray
+}
+
+h1 {
+    text-align: center;
+    font-family: "comic sans MS";
+    color: goldenrod;
+    font-size: 40px;
+}
+
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1000px;
+}
+
+.box {
+    border: 1px solid gray;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+}
+
+.palette {
+    display: flex;
+    justify-content: center;
+}
+
+.paint {
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.lightpink {
+    background-color: lightpink;
+}
+
+.hotpink {
+    background-color: hotpink;
+}
+
+.deeppink {
+    background-color: deeppink;
+}
+
+.red {
+    background-color: red;
+}
+
+.darkred {
+    background-color: darkred;
+}
+
+.orangered {
+    background-color: orangered;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.greenyellow {
+    background-color: greenyellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.teal {
+    background-color: teal;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.navy {
+    background-color: navy;
+}
+
+.indigo {
+    background-color: indigo;
+}
+
+.purple {
+    background-color: purple;
+}
